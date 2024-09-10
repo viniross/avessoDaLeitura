@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent telaMenu = new Intent(MainActivity.this, Menu.class);
                 startActivity(telaMenu);
-                overridePendingTransition(R.anim.);
+                overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
             }
         });
 
