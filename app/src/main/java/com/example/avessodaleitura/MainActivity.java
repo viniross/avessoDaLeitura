@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         capaLivro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaMenu = new Intent(MainActivity.this, Menu.class);
+                Intent telaMenu = new Intent(MainActivity.this, MenuActivity.class);
                 startActivity(telaMenu);
                 overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
             }
