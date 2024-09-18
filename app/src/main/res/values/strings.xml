@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Avesso da Leitura</string>
+    <string name="txt1">Professor de literatura negro que foi assassinado por policiais durante uma abordagem.</string>
+    <string name="txt2">Filho de Henrique, conta a história do pai, investigando suas origens e o passado da família.</string>
+    <string name="txt3">Mãe de Pedro.</string>
 </resources>

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         capaLivro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaMenu = new Intent(MainActivity.this, MenuActivity.class);
+                Intent telaMenu = new Intent(MainActivity.this, PersonagensActivity.class);
                 startActivity(telaMenu);
                 overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
             }
