@@ -3,4 +3,8 @@
     <string name="txt1">Professor de literatura negro que foi assassinado por policiais durante uma abordagem.</string>
     <string name="txt2">Filho de Henrique, conta a história do pai, investigando suas origens e o passado da família.</string>
     <string name="txt3">Mãe de Pedro.</string>
+    <string name="opiniao1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus enim vel urna posuere, non dictum mi facilisis. Cras quis magna tortor.</string>
+    <string name="opiniao2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus enim vel urna posuere, non dictum mi facilisis. Cras quis magna tortor.</string>
+    <string name="opinao3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus enim vel urna posuere, non dictum mi facilisis. Cras quis magna tortor.</string>
+    <string name="opiniao4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus enim vel urna posuere, non dictum mi facilisis. Cras quis magna tortor.</string>
 </resources>
