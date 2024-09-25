@@ -12,35 +12,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AvessoDaLeitura"
         tools:targetApi="31">
+
         <activity
-            android:name=".FofocaActivity"
+            android:name=".fragments.FofocaActivity"
             android:exported="false" />
         <activity
-            android:name=".TimeLineActivity2"
+            android:name=".fragments.TimeLineActivity2"
             android:exported="false" />
         <activity
-            android:name=".TimeLineActivity1"
+            android:name=".fragments.TimeLineActivity1"
             android:exported="false" />
         <activity
-            android:name=".TrechosActivity"
+            android:name=".fragments.TrechosActivity"
             android:exported="false" />
         <activity
-            android:name=".PersonagensActivity"
+            android:name=".fragments.PersonagensActivity"
             android:exported="false" />
         <activity
-            android:name=".OpiniaoActivity"
+            android:name=".fragments.OpiniaoActivity"
             android:exported="false" />
         <activity
-            android:name=".AutorActivity"
+            android:name=".fragments.AutorActivity"
             android:exported="false" />
         <activity
-            android:name=".SinopseActivity"
+            android:name=".fragments.SinopseActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuActivity"
+            android:name=".fragments.MenuActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".CapaActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

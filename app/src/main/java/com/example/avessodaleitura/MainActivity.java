@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView capaLivro = findViewById(R.id.capaLivro);
         viewPager = findViewById(R.id.viewPager);
 
         adapter = new ViewPagerAdapter(this);
@@ -47,15 +46,6 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new TimeLineActivity1());
         adapter.addFragment(new TimeLineActivity2());
         adapter.addFragment(new FofocaActivity());
-
-        capaLivro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent telaMenu = new Intent(MainActivity.this, MenuActivity.class);
-                startActivity(telaMenu);
-                overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out);
-            }
-        });
 
     }
 
