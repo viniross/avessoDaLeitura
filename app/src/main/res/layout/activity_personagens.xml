@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1442EA"
-    tools:context=".PersonagensActivity">
+    tools:context=".fragments.PersonagensActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

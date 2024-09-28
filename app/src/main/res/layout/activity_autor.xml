@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F64E00"
-    tools:context=".AutorActivity">
+    tools:context=".fragments.AutorActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

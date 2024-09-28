@@ -9,12 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.example.avessodaleitura.R;
 
-public class MenuActivity extends Fragment {
+public class CapaActivity extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Infla o layout para este fragmento
-        return inflater.inflate(R.layout.activity_menu, container, false);
+        return inflater.inflate(R.layout.activity_capa, container, false);
     }
 }

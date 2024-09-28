@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CBF60D"
-    tools:context=".TrechosActivity">
+    tools:context=".fragments.TrechosActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

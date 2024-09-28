@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         viewPager = findViewById(R.id.viewPager);
-
         adapter = new ViewPagerAdapter(this);
+
         adapter.addFragment(new MenuActivity());
         adapter.addFragment(new SinopseActivity());
         adapter.addFragment(new AutorActivity());
@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new TimeLineActivity2());
         adapter.addFragment(new FofocaActivity());
 
+        viewPager.setAdapter(adapter);
+
+        viewPager.setPageTransformer(new Carrossel());
     }
 
     private static class ViewPagerAdapter extends FragmentStateAdapter {
