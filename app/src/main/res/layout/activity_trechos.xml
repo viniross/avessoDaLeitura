@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.063"
         app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview" />
 
     <ImageView
@@ -25,10 +25,10 @@
         android:layout_height="265dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
+        app:layout_constraintVertical_bias="0.575"
         app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview" />
 
     <TextView
@@ -42,29 +42,30 @@
         app:layout_constraintHorizontal_bias="0.781"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518" />
+        app:layout_constraintVertical_bias="0.568" />
 
     <TextView
         android:id="@+id/texto2"
-        android:layout_width="208dp"
-        android:layout_height="163dp"
+        android:layout_width="195dp"
+        android:layout_height="166dp"
         android:text="@string/texto2"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.18" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="21dp"
-        android:layout_height="200dp"
+        android:layout_height="281dp"
+        android:fontFamily="@font/bebas_neue"
         android:text="@string/titulo"
         android:textColor="#000000"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="311dp"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="348dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
@@ -73,7 +74,7 @@
         android:layout_height="271dp"
         app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="444dp" />
+        tools:layout_editor_absoluteY="471dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -84,10 +85,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877" />
+        app:layout_constraintVertical_bias="0.92" />
 
     <ImageButton
         android:id="@+id/imageButton"

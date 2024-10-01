@@ -3,6 +3,7 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/agbalumo</item>
         <item>@font/bagel_fat_one</item>
+        <item>@font/bebas_neue</item>
         <item>@font/combo</item>
     </array>
 </resources>
