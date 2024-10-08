@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Avesso da Leitura</string>
-    <string name="txt1">Professor de literatura negro que foi assassinado por policiais durante uma abordagem.</string>
-    <string name="txt2">Filho de Henrique, conta a história do pai, investigando suas origens e o passado da família.</string>
-    <string name="txt3">Mãe de Pedro.</string>
+    <string name="txt1">Professor de literatura negro que foi assassinado por policiais durante uma abordagem. Sua vida é o centro da história, marcada por episódios de racismo e um sistema educacional falido.</string>
+    <string name="txt2">Filho de Henrique, conta a história do pai, investigando suas origens e o passado da família enquanto narra as próprias vivências.</string>
+    <string name="txt3">Mãe de Pedro, teve uma vida de perdas, somadas à dificuldade de ser mulher em uma sociedade racista e misógina.</string>
     <string name="opiniao1">O livro trata de temas pertinentes na nossa sociedade, fala de problemáticas atuais. Avesso da Pele traz muita carga cultural, ótima leitura.</string>
-    <string name="opiniao2">O avesso da pele fala de amor, racismo, luta, identidade. Por ser uma leitura obrigatória da Federal do Rio Grande do Sul, agrega muito.</string>
-    <string name="opinao3">O livro deveria ser leitura essencial para todos. Jeferson Tenório desenvolve assuntos tão sensíveis em uma prosa altamente fluída.</string>
-    <string name="opiniao4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus enim vel urna posuere, non dictum mi facilisis. Cras quis magna tortor.</string>
+    <string name="opiniao2">O avesso da pele fala de amor, racismo, luta, identidade. Por ser uma leitura obrigatória da UFRGS, agrega muito.</string>
+    <string name="opinao3">O livro deveria ser leitura essencial para todos. Jeferson Tenório desenvolve assuntos extremamente sensíveis em uma prosa altamente fluída.</string>
+    <string name="opiniao4">Leitura ótima que narra o peso de ser uma pessoa negra em uma realidade racista institucionalizada, além de críticas ao sistema educativo e relações abusivas.</string>
 </resources>'

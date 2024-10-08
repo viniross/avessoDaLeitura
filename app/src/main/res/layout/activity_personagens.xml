@@ -24,24 +24,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/casa__4_" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
-        android:layout_marginEnd="116dp"
-        android:text="PERSONAGENS"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#0d1275"
-        android:textSize="44sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
@@ -99,23 +81,25 @@
 
     <TextView
         android:id="@+id/txt1"
-        android:layout_width="194dp"
-        android:layout_height="80dp"
+        android:layout_width="192dp"
+        android:layout_height="134dp"
+        android:justificationMode="inter_word"
         android:text="@string/txt1"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintHorizontal_bias="0.858"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319"
-        android:justificationMode="inter_word"/>
+        app:layout_constraintVertical_bias="0.311" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="45dp"
         android:layout_height="18dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="45dp"
+        android:justificationMode="inter_word"
         android:text="Pedro"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -124,15 +108,15 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514"
-        android:justificationMode="inter_word"/>
+        app:layout_constraintVertical_bias="0.514" />
 
     <TextView
         android:id="@+id/txt2"
-        android:layout_width="178dp"
-        android:layout_height="76dp"
+        android:layout_width="176dp"
+        android:layout_height="99dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="52dp"
+        android:justificationMode="inter_word"
         android:text="@string/txt2"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -140,8 +124,7 @@
         app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.635"
-        android:justificationMode="inter_word"/>
+        app:layout_constraintVertical_bias="0.635" />
 
     <TextView
         android:id="@+id/TextView11"
@@ -161,16 +144,27 @@
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="98dp"
+        android:justificationMode="inter_word"
         android:text="@string/txt3"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintHorizontal_bias="0.764"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811"
-        android:justificationMode="inter_word"/>
+        app:layout_constraintVertical_bias="0.868" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="413dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/personagens" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
