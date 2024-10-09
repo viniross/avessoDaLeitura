@@ -16,8 +16,65 @@
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.111"
+        app:layout_constraintVertical_bias="0.297"
         app:srcCompat="@drawable/jeffff" />
+
+    <TextView
+        android:id="@+id/TxtBiografia"
+        android:layout_width="338dp"
+        android:layout_height="314dp"
+        android:justificationMode="inter_word"
+        android:text="Escritor, professor e pesquisador brasileiro, radicado em Porto Alegre. Seu romance de estreia, O beijo na parede, foi publicado em 2013, sendo eleito Livro do Ano pela Associação Gaúcha de Escritores. Seus textos teatrais e contos foram traduzidos para o inglês e o castelhano. Em 2021, o autor ganhou o Prêmio Jabuti por seu romance, O avesso da pele. Um dos motivos pelo qual começou escrever foi porque teve muitas experiências com abordagens policiais violentas. Pensou que escrever poderia ser uma maneira de enfrentar o racismo presente no Sul e no Brasil em geral."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <TextView
+        android:id="@+id/txtAutor1"
+        android:layout_width="196dp"
+        android:layout_height="24dp"
+        android:text="Nome: Jefferson Tenório."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <TextView
+        android:id="@+id/txtAutor1"
+        android:layout_width="196dp"
+        android:layout_height="51dp"
+        android:text="Nasceu no dia 8 de março de 1977, Rio de Janeiro."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/txtAutor3"
+        android:layout_width="196dp"
+        android:layout_height="71dp"
+        android:text="Em 2021, o autor ganhou o Prêmio Jabuti por seu romance O avesso da pele."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
 
     <ImageView
         android:id="@+id/BtnHome"
@@ -25,65 +82,21 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintHorizontal_bias="0.886"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931"
-        app:srcCompat="@drawable/casa" />
+        app:layout_constraintVertical_bias="0.944"
+        app:srcCompat="@drawable/casa__4_" />
 
-    <TextView
-        android:id="@+id/TxtBiografia"
-        android:layout_width="365dp"
-        android:layout_height="236dp"
-        android:justificationMode="inter_word"
-        android:text="Escritor, professor e pesquisador brasileiro, radicado em Porto Alegre. Seu romance de estreia, O beijo na parede, foi publicado em 2013, sendo eleito Livro do Ano pela Associação Gaúcha de Escritores. Seus textos teatrais e contos foram traduzidos para o inglês e o castelhano. Em 2021, o autor ganhou o Prêmio Jabuti por seu romance, O avesso da pele. Um dos motivos pelo qual começou escrever foi porque teve muitas experiências com abordagens policiais violentas. Pensou que escrever poderia ser uma maneira de enfrentar o racismo presente no Sul e no Brasil em geral."
-        android:textColor="#000000"
-        android:textSize="16sp"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
-
-    <TextView
-        android:id="@+id/txtAutor1"
-        android:layout_width="213dp"
-        android:layout_height="24dp"
-        android:text="Nome: Jefferson Tenório"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
-
-    <TextView
-        android:id="@+id/txtAutor1"
-        android:layout_width="210dp"
-        android:layout_height="44dp"
-        android:text="Nasceu no dia 8 de março de 1977, Rio de Janeiro"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17" />
-
-    <TextView
-        android:id="@+id/txtAutor3"
-        android:layout_width="216dp"
-        android:layout_height="72dp"
-        android:text="Em 2021, o autor ganhou o Prêmio Jabuti por seu romance, O avesso da pele."
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257" />
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/sem_t_tulo_2_removebg_preview" />
 </androidx.constraintlayout.widget.ConstraintLayout>
