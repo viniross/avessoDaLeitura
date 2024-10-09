@@ -28,7 +28,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.684"
+        app:layout_constraintVertical_bias="0.654"
         app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview" />
 
     <TextView
@@ -62,8 +62,8 @@
         android:layout_width="254dp"
         android:layout_height="271dp"
         app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="471dp" />
+        tools:layout_editor_absoluteX="-34dp"
+        tools:layout_editor_absoluteY="469dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -74,7 +74,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.92" />
