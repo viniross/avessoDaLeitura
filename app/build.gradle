@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.avessodaleitura'
+    namespace 'com.example.avessodaleiturateste'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.avessodaleitura"
+        applicationId "com.example.avessodaleiturateste"
         minSdk 24
         targetSdk 34
         versionCode 1

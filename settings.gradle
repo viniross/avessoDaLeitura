@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Avesso da Leitura"
+rootProject.name = "Avesso da Leitura Teste"
 include ':app'

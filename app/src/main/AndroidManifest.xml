@@ -10,34 +10,40 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AvessoDaLeitura"
+        android:theme="@style/Theme.AvessoDaLeituraTeste"
         tools:targetApi="31">
         <activity
-            android:name=".FofocaActivity"
+            android:name=".fragments.OpiniaoActivity2"
             android:exported="false" />
         <activity
-            android:name=".TimeLineActivity2"
+            android:name=".fragments.RepercussaoActivity"
             android:exported="false" />
         <activity
-            android:name=".TimeLineActivity1"
+            android:name=".fragments.LinhaDoTempo2Activity"
             android:exported="false" />
         <activity
-            android:name=".TrechosActivity"
+            android:name=".fragments.LinhaDoTempoActivity"
             android:exported="false" />
         <activity
-            android:name=".PersonagensActivity"
+            android:name=".fragments.TrechosActivity"
             android:exported="false" />
         <activity
-            android:name=".OpiniaoActivity"
+            android:name=".fragments.PersonagensActivity"
             android:exported="false" />
         <activity
-            android:name=".AutorActivity"
+            android:name=".fragments.CapaActivity"
             android:exported="false" />
         <activity
-            android:name=".SinopseActivity"
+            android:name=".fragments.MenuActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuActivity"
+            android:name=".fragments.OpiniaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.AutorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.SinopseActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

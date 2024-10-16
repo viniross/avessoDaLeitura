@@ -4,6 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SinopseActivity">
-
+    android:background="@drawable/opcao2"
+    tools:context=".fragments.SinopseActivity">
+    <TextView
+        android:id="@+id/txtSinopse"
+        android:layout_width="317dp"
+        android:layout_height="340dp"
+        android:justificationMode="inter_word"
+        android:text="O Avesso da Pele é um romance de Jeferson Tenório que conta a história de Pedro, filho de um professor de literatura assassinado a tiros durante uma abordagem policial em Porto Alegre, nos anos de 1980. O livro explora temas como identidade, relações raciais, violência, negritude, afetos, ausências, pertencimento e luto. "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+    <ImageView
+        android:id="@+id/BtnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944"
+        app:srcCompat="@drawable/casa__4_" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="317dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/sinopse" />
 </androidx.constraintlayout.widget.ConstraintLayout>
