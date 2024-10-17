@@ -26,7 +26,7 @@ public class AutorActivity extends Fragment {
         // Infla o layout para este fragmento
         View view = inflater.inflate(R.layout.activity_autor, container, false);
 
-        // Inicializa o ImageView BtnHome a partir da view inflada
+        /* Inicializa o ImageView BtnHome a partir da view inflada
         BtnHome = view.findViewById(R.id.BtnHome);
 
         // Define o comportamento do botão BtnHome
@@ -41,11 +41,11 @@ public class AutorActivity extends Fragment {
                         .replace(R.id.fragment_container, MenuActivity.class, null) // Certifique-se de que o 'fragment_container' está definido no layout da activity principal
                         .setReorderingAllowed(true)
                         .addToBackStack(null)
-                        .commit();*/
+                        .commit();
 
 
             }
-        });
+        }); */
 
         return view; // Retorna a view inflada
     }

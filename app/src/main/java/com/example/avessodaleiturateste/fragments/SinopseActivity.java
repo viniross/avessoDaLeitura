@@ -21,7 +21,7 @@ public class SinopseActivity extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Infla o layout para este fragmento
         View view = inflater.inflate(R.layout.activity_sinopse, container, false);
-
+        /*
         // Inicializa o BtnHome a partir da view inflada
         BtnHome = view.findViewById(R.id.BtnHome);
         BtnHome.setOnClickListener(new View.OnClickListener() {
@@ -31,7 +31,7 @@ public class SinopseActivity extends Fragment {
                 Intent menuIntent = new Intent(getActivity(), MenuActivity.class);
                 startActivity(menuIntent);
             }
-        });
+        });*/
 
         return view; // Retorna a view inflada
     }

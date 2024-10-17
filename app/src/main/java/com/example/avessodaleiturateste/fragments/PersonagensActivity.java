@@ -21,7 +21,7 @@ public class PersonagensActivity extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Infla o layout para este fragmento e armazena na variável "view"
         View view = inflater.inflate(R.layout.activity_personagens, container, false);
-
+        /*
         // Inicializa o botão BtnHome a partir da view inflada
         BtnHome = view.findViewById(R.id.BtnHome);
 
@@ -33,7 +33,7 @@ public class PersonagensActivity extends Fragment {
                 Intent menu = new Intent(getActivity(), MenuActivity.class);
                 startActivity(menu);
             }
-        });
+        }); */
 
         // Retorna a view inflada
         return view;

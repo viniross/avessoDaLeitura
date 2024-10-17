@@ -13,14 +13,14 @@ import com.example.avessodaleiturateste.R;
 
 public class MenuActivity extends Fragment {
 
-    TextView txtTpc1, txtTpc2, txtTpc3, txtTpc4, txtTpc5, txtTpc6, txtTpc7;
+    //TextView txtTpc1, txtTpc2, txtTpc3, txtTpc4, txtTpc5, txtTpc6, txtTpc7;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Infla o layout para este fragmento
         View view = inflater.inflate(R.layout.activity_menu, container, false);
-
+        /*
         // Configura os TextViews e seus respectivos OnClickListeners
         txtTpc1 = view.findViewById(R.id.txtTpc1);
         txtTpc1.setOnClickListener(new View.OnClickListener() {
@@ -83,7 +83,7 @@ public class MenuActivity extends Fragment {
                 Intent fofoca = new Intent(getActivity(), RepercussaoActivity.class);
                 startActivity(fofoca);
             }
-        });
+        }); */
 
         return view; // Retorna a view inflada
     }

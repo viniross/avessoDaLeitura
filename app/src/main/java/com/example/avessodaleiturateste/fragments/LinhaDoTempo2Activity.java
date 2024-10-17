@@ -29,21 +29,21 @@ public class LinhaDoTempo2Activity extends Fragment {
         rootView = (ViewGroup) inflater.inflate(R.layout.activity_linha_do_tempo2, container, false);
 
         // Referencia os círculos e as informações
-        View circleView1 = rootView.findViewById(R.id.nasciPedro);
-        TextView txtTitulo11 = rootView.findViewById(R.id.txtTituloNasciPedro);
-        TextView txtInfo12 = rootView.findViewById(R.id.txtInfoPedro);
+        View circleView1 = rootView.findViewById(R.id.identHenri);
+        TextView txtTitulo11 = rootView.findViewById(R.id.txtTituloIdentHenri);
+        TextView txtInfo12 = rootView.findViewById(R.id.txtInfoIdentHenri);
 
-        View circleView2 = rootView.findViewById(R.id.acadEMilitPedro);
-        TextView txtTitulo21 = rootView.findViewById(R.id.txtTituloAcadEMilitPedro);
-        TextView txtInfo22 = rootView.findViewById(R.id.txtInfoAcadEMilit);
+        View circleView2 = rootView.findViewById(R.id.refHenri);
+        TextView txtTitulo21 = rootView.findViewById(R.id.txtTituloRefHenri);
+        TextView txtInfo22 = rootView.findViewById(R.id.txtInfoRefHenri);
 
-        View circleView3 = rootView.findViewById(R.id.encPedroEMarta);
-        TextView txtTitulo31 = rootView.findViewById(R.id.txtTituloEncPedroEMarta);
-        TextView txtInfo32 = rootView.findViewById(R.id.txtInfoEncPedro);
+        View circleView3 = rootView.findViewById(R.id.violenPoli);
+        TextView txtTitulo31 = rootView.findViewById(R.id.txtTituloViolenPoli);
+        TextView txtInfo32 = rootView.findViewById(R.id.txtInfoViolenPoli);
 
-        View circleView4 = rootView.findViewById(R.id.nasciHenri);
-        TextView txtTitulo41 = rootView.findViewById(R.id.txtTituloNasciHenri);
-        TextView txtInfo42 = rootView.findViewById(R.id.txtInfoHenri);
+        View circleView4 = rootView.findViewById(R.id.pedroProf);
+        TextView txtTitulo41 = rootView.findViewById(R.id.txtTituloPedroProf);
+        TextView txtInfo42 = rootView.findViewById(R.id.txtInfoPedroProf);
 
         // Coloca todos os círculos em um array para fácil acesso
         allCircles = new View[]{circleView1, circleView2, circleView3, circleView4};

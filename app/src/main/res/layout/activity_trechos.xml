@@ -17,8 +17,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-    <!--app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview" -->
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/post_it_azul_removebg_preview" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -29,8 +29,8 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
-    <!--app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview" -->
+        app:layout_constraintVertical_bias="0.654"
+        app:srcCompat="@drawable/post_it_azul_removebg_preview" />
 
     <TextView
         android:id="@+id/textView3"
@@ -60,16 +60,17 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="254dp"
-        android:layout_height="271dp"
+        android:layout_width="198dp"
+        android:layout_height="247dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
-    <!--app:srcCompat="@drawable/post_itazul_removebg_preview_removebg_preview"-->
+        app:layout_constraintVertical_bias="0.997"
+        app:srcCompat="@drawable/post_it_azul_removebg_preview" />
 
-<TextView
+    <TextView
     android:id="@+id/textView6"
     android:layout_width="172dp"
     android:layout_height="152dp"
@@ -83,19 +84,7 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintVertical_bias="0.92" />
 
-<ImageButton
-    android:id="@+id/imageButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:backgroundTint="#00000000"
-    app:srcCompat="@drawable/casa__4_"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="1.0" />
-
-<ImageView
+    <ImageView
     android:id="@+id/imageView6"
     android:layout_width="363dp"
     android:layout_height="348dp"
