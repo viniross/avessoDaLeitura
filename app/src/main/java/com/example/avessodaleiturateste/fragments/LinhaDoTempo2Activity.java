@@ -1,7 +1,5 @@
 package com.example.avessodaleiturateste.fragments;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.animation.ObjectAnimator;
@@ -29,21 +27,21 @@ public class LinhaDoTempo2Activity extends Fragment {
         rootView = (ViewGroup) inflater.inflate(R.layout.activity_linha_do_tempo2, container, false);
 
         // Referencia os círculos e as informações
-        View circleView1 = rootView.findViewById(R.id.identHenri);
-        TextView txtTitulo11 = rootView.findViewById(R.id.txtTituloIdentHenri);
-        TextView txtInfo12 = rootView.findViewById(R.id.txtInfoIdentHenri);
+        View circleView1 = rootView.findViewById(R.id.pedroProf);
+        TextView txtTitulo11 = rootView.findViewById(R.id.txtTituloPedroProf);
+        TextView txtInfo12 = rootView.findViewById(R.id.txtInfoPedroProf);
 
-        View circleView2 = rootView.findViewById(R.id.refHenri);
-        TextView txtTitulo21 = rootView.findViewById(R.id.txtTituloRefHenri);
-        TextView txtInfo22 = rootView.findViewById(R.id.txtInfoRefHenri);
+        View circleView2 = rootView.findViewById(R.id.violenPoli);
+        TextView txtTitulo21 = rootView.findViewById(R.id.txtTituloViolenPoli);
+        TextView txtInfo22 = rootView.findViewById(R.id.txtInfoViolenPoli);
 
-        View circleView3 = rootView.findViewById(R.id.violenPoli);
-        TextView txtTitulo31 = rootView.findViewById(R.id.txtTituloViolenPoli);
-        TextView txtInfo32 = rootView.findViewById(R.id.txtInfoViolenPoli);
+        View circleView3 = rootView.findViewById(R.id.refHenri);
+        TextView txtTitulo31 = rootView.findViewById(R.id.txtTituloRefHenri);
+        TextView txtInfo32 = rootView.findViewById(R.id.txtInfoRefHenri);
 
-        View circleView4 = rootView.findViewById(R.id.pedroProf);
-        TextView txtTitulo41 = rootView.findViewById(R.id.txtTituloPedroProf);
-        TextView txtInfo42 = rootView.findViewById(R.id.txtInfoPedroProf);
+        View circleView4 = rootView.findViewById(R.id.identHenri);
+        TextView txtTitulo41 = rootView.findViewById(R.id.txtTituloIdentHenri);
+        TextView txtInfo42 = rootView.findViewById(R.id.txtInfoIdentHenri);
 
         // Coloca todos os círculos em um array para fácil acesso
         allCircles = new View[]{circleView1, circleView2, circleView3, circleView4};

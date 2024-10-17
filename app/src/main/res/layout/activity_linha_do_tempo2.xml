@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/opcao2"
     android:rotationX="0"
-    android:rotationY="180"
     tools:context=".fragments.LinhaDoTempo2Activity">
 
     <View
@@ -33,7 +32,7 @@
         app:layout_constraintVertical_bias="0.616" />
 
     <ImageView
-        android:id="@+id/violenPoli"
+        android:id="@+id/pedroProf"
         android:layout_width="104dp"
         android:layout_height="103dp"
         android:background="@drawable/circle_shape"
@@ -57,7 +56,7 @@
         app:layout_constraintVertical_bias="0.43" />
 
     <ImageView
-        android:id="@+id/pedroProf"
+        android:id="@+id/violenPoli"
         android:layout_width="104dp"
         android:layout_height="103dp"
         android:background="@drawable/circle_shape"
@@ -80,7 +79,7 @@
          app:layout_constraintVertical_bias="0.616" />
 
     <ImageView
-        android:id="@+id/identHenri"
+        android:id="@+id/refHenri"
         android:layout_width="104dp"
         android:layout_height="103dp"
         android:background="@drawable/circle_shape"
@@ -103,7 +102,7 @@
         app:layout_constraintVertical_bias="0.43" />
 
     <ImageView
-        android:id="@+id/refHenri"
+        android:id="@+id/identHenri"
         android:layout_width="104dp"
         android:layout_height="103dp"
         android:background="@drawable/circle_shape"
@@ -118,7 +117,6 @@
         android:id="@+id/txtTituloPedroProf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rotationY="180"
         android:text="@string/txtTituloPedroProf"
         android:textColor="#0D1275"
         android:textSize="34sp"
@@ -134,7 +132,6 @@
         android:id="@+id/txtTituloViolenPoli"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rotationY="180"
         android:text="@string/txtTituloViolenPoli"
         android:textColor="#0D1275"
         android:textSize="34sp"
@@ -150,7 +147,6 @@
         android:id="@+id/txtTituloRefHenri"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rotationY="180"
         android:text="@string/txtTituloRefHenri"
         android:textColor="#0D1275"
         android:textSize="34sp"
@@ -166,7 +162,6 @@
         android:id="@+id/txtTituloIdentHenri"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rotationY="180"
         android:text="@string/txtTituloIdentHenri"
         android:textColor="#0D1275"
         android:textSize="34sp"
@@ -182,7 +177,6 @@
         android:id="@+id/txtInfoPedroProf"
         android:layout_width="269dp"
         android:layout_height="179dp"
-        android:rotationY="180"
         android:text="@string/txtInfoPedroProf"
         android:textColor="#F0F0F0F0"
         android:textSize="20sp"
@@ -198,7 +192,6 @@
         android:id="@+id/txtInfoViolenPoli"
         android:layout_width="269dp"
         android:layout_height="179dp"
-        android:rotationY="180"
         android:text="@string/txtInfoViolenPoli"
         android:textColor="#F0F0F0F0"
         android:textSize="20sp"
@@ -214,7 +207,6 @@
         android:id="@+id/txtInfoRefHenri"
         android:layout_width="269dp"
         android:layout_height="179dp"
-        android:rotationY="180"
         android:text="@string/txtInfoRefHenri"
         android:textColor="#F0F0F0F0"
         android:textSize="20sp"
@@ -230,7 +222,6 @@
         android:id="@+id/txtInfoIdentHenri"
         android:layout_width="269dp"
         android:layout_height="179dp"
-        android:rotationY="180"
         android:text="@string/txtInfoIdentHenri"
         android:textColor="#F0F0F0F0"
         android:textSize="20sp"
@@ -249,10 +240,10 @@
         android:src="@drawable/pedroprofcircular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311" />
+        app:layout_constraintVertical_bias="0.752" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -261,10 +252,10 @@
         android:src="@drawable/violenpolicicircular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.768" />
+        app:layout_constraintVertical_bias="0.307" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
