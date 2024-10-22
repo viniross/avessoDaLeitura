@@ -17,20 +17,22 @@
     <string name="txtInfoPedro">Pedro cresce em uma comunidade negra, em uma família humilde e tem uma vida marcada por racismo e dificuldades financeiras.</string>
     <string name="txtTituloAcadEMilitPedro">Vida Acadêmica e Militância de Pedro</string>
     <string name="txtInfoAcadEMilit">Pedro se interessa por questões sociais e políticas, começa a estudar na universidade e se engaja em movimentos estudantis e militância racial.</string>
-    <string name="txtTituloEncPedroEMarta">Encontro de Pedro e Marta</string>
+    <string name="txtTituloEncPedroEMarta">Encontro de \n Pedro e Marta</string>
     <string name="txtInfoEncPedro">Pedro conhece Marta, que será sua esposa e mãe de Henrique. Ela é uma figura importante, mas enfrenta dificuldades em lidar com o ativismo e o isolamento de Pedro.</string>
-    <string name="txtTituloNasciHenri">Nascimento de Henrique</string>
+    <string name="txtTituloNasciHenri">Nascimento de \n Henrique</string>
     <string name="txtInfoHenri">Henrique nasce e cresce em um contexto de tensões familiares. Sua relação com o pai é marcada por uma tentativa constante de compreensão e conexão.</string>
 
-    <string name="txtTituloPedroProf">Pedro Torna-se Professor</string>
+    <string name="txtTituloPedroProf">Pedro Torna-se \n Professor</string>
     <string name="txtInfoPedroProf">Pedro, apesar de todas as dificuldades e discriminações, consegue se formar e tornar-se professor de história. No entanto, ele continua enfrentando o racismo no ambiente de trabalho.</string>
     <string name="txtTituloViolenPoli">Violência Policial</string>
     <string name="txtInfoViolenPoli">Um dos eventos centrais do livro é a morte de Pedro, vítima da brutalidade policial. Esse fato ocorre quando Henrique ainda é jovem e marca profundamente sua trajetória.</string>
     <string name="txtTituloRefHenri">Reflexões de Henrique</string>
     <string name="txtInfoRefHenri">Após a morte do pai, Henrique, agora adulto, reflete sobre as memórias e as lições que Pedro deixou. Ele tenta entender quem seu pai era, seus sonhos, suas lutas e o impacto de seu legado.</string>
-    <string name="txtTituloIdentHenri">Busca de Henrique pela Identidade</string>
+    <string name="txtTituloIdentHenri">Busca de Henrique \n pela Identidade</string>
     <string name="txtInfoIdentHenri">Henrique mergulha em uma busca por sua própria identidade, enquanto tenta reconstruir a imagem do pai a partir de memórias fragmentadas e da ausência causada pela violência racial.</string>
 
     <string name="fofoca1">"O livro vem sendo alvo de ataques desde 2022, quando Tenório sofreu ameaças de morte ao anunciar que faria uma palestra em uma escola de Salvador. Rio Grande do Sul, pediu a retirada do título das instituições de ensino."</string>
     <string name="fofoca2">"A Companhia das Letras afirmou que a retirada de exemplares de um livro, baseada em uma interpretação distorcida e descontextualizada de trechos isolados, é um ato que viola os princípios fundamentais da educação e da democracia, empobrece o debate cultural e mina a capacidade dos estudantes de desenvolverem pensamento crítico e reflexivo."</string>
+
+    <string name="clicarCirculos">Clique sobre as imagens para visualizar a evolução do livro!</string>
 </resources>
