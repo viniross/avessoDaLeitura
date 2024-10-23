@@ -8,91 +8,93 @@
     android:background="@drawable/opcao2"
     tools:context=".fragments.TrechosActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="267dp"
-        android:layout_height="291dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/post_it_azul_removebg_preview" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="248dp"
-        android:layout_height="265dp"
+        android:id="@+id/imageView6"
+        android:layout_width="343dp"
+        android:layout_height="315dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352"
+        app:srcCompat="@drawable/trechos" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="290dp"
+        android:layout_height="280dp"
+        android:src="@drawable/papelzinho1__1__removebg_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="194dp"
+        android:layout_height="168dp"
+        android:text="@string/texto2"
+        android:textColor="#040404"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="323dp"
+        android:layout_height="277dp"
+        android:src="@drawable/papelzinho1__1__removebg_preview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654"
-        app:srcCompat="@drawable/post_it_azul_removebg_preview" />
+        app:layout_constraintVertical_bias="0.611" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="168dp"
-        android:layout_height="170dp"
+        android:layout_width="194dp"
+        android:layout_height="159dp"
         android:text="@string/texto1"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.741"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647" />
-
-    <TextView
-        android:id="@+id/texto2"
-        android:layout_width="195dp"
-        android:layout_height="166dp"
-        android:text="@string/texto2"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.18"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
+        app:layout_constraintVertical_bias="0.627" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="198dp"
-        android:layout_height="247dp"
+        android:id="@+id/imageView25"
+        android:layout_width="276dp"
+        android:layout_height="245dp"
+        android:src="@drawable/papelzinho1__1__removebg_preview"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.997"
-        app:srcCompat="@drawable/post_it_azul_removebg_preview" />
+        app:layout_constraintVertical_bias="0.993" />
 
     <TextView
-    android:id="@+id/textView6"
-    android:layout_width="172dp"
-    android:layout_height="152dp"
-    android:text="@string/texto3"
-    android:textColor="#FFFFFF"
-    android:textSize="16sp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.066"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.92" />
+        android:id="@+id/textView6"
+        android:layout_width="172dp"
+        android:layout_height="152dp"
+        android:text="@string/texto3"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
 
-    <ImageView
-    android:id="@+id/imageView6"
-    android:layout_width="363dp"
-    android:layout_height="348dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.352"
-    app:srcCompat="@drawable/trechos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
