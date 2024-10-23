@@ -34,22 +34,20 @@
         app:layout_constraintVertical_bias="0.776"
         app:srcCompat="@drawable/balaozinho__1__removebg_preview" />
 
+
     <TextView
         android:id="@+id/opiniao1"
-        android:layout_width="180dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginEnd="3dp"
+        android:layout_width="157dp"
+        android:layout_height="96dp"
         android:justificationMode="inter_word"
         android:text="@string/opiniao1"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.736"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
-
+        app:layout_constraintVertical_bias="0.33" />
 
     <TextView
         android:id="@+id/opiniao2"
@@ -60,7 +58,7 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.69" />
@@ -92,16 +90,15 @@
         app:srcCompat="@drawable/nathalia_removebg_preview" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="416dp"
-        android:layout_height="212dp"
-        android:layout_marginStart="8dp"
+        android:id="@+id/imageView21"
+        android:layout_width="276dp"
+        android:layout_height="102dp"
+        android:src="@drawable/opnioes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/opnioes" />
+        app:layout_constraintVertical_bias="0.065" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
